@@ -13,6 +13,7 @@ import com.mrousavy.camera.core.ViewNotFoundError
 import com.mrousavy.camera.react.CameraView
 import java.lang.ref.WeakReference
 
+@OptIn(FrameworkAPI::class)
 @Suppress("KotlinJniMissingFunction") // we use fbjni.
 class VisionCameraProxy(private val reactContext: ReactApplicationContext) {
   companion object {

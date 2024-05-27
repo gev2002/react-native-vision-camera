@@ -30,6 +30,7 @@ project.xcworkspace
 
 # Android/IJ
 #
+.idea/
 .idea
 .gradle
 local.properties
